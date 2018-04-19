@@ -1,0 +1,8 @@
+[
+  "aaa.py::member_getBeInvitedStatus::test_01_allTrue", 
+  "aaa.py::member_getBeInvitedStatus::test_02_allTrue", 
+  "aaa.py::member_getBeInvitedStatus::test_03_allTrue", 
+  "aaa.py::member_getBeInvitedStatus::test_04_allTrue", 
+  "aaa.py::member_getBeInvitedStatus::test_05_allTrue", 
+  "aaa.py::member_getBeInvitedStatus::test_06_allTrue"
+]
