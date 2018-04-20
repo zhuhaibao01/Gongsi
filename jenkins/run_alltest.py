@@ -2,6 +2,11 @@
 import unittest
 import os,time
 import HTMLTestRunner
+import sys,unittest,requests
+reload(sys)
+sys.setdefaultencoding('utf-8')
+sys.path.append(r'C:\Users\test\Desktop\jenkins\Base')
+from CreatePhoneNum import *
 #用例路径
 print os.getcwd()    #获取当前工作目录
 case_pase=os.path.join(os.getcwd(),"testcase")  #加入路径
