@@ -1,11 +1,9 @@
 #coding=utf-8
-import unittest
-import requests
-import unittest, sys, os, requests, json
-sys.path.append('..')
-sys.path.append(os.path.abspath(os.listdir('..')[0] + '/' +'../../'))
-import MySQLdb
-from Base.test_CreatePhoneNum import *
+import sys,unittest,requests
+reload(sys)
+sys.setdefaultencoding('utf-8')
+sys.path.append(r'C:\Users\test\Desktop\jenkins\Base')
+from CreatePhoneNum import *
 # Y 服务商， H 新媒人， C 个人， B企业主
 class member_getInvitedCodeInfo(unittest.TestCase):
 
