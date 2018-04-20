@@ -13,7 +13,7 @@ print case_pase
 def all_case():
     discover=unittest.defaultTestLoader.discover(case_pase,
                                                  pattern="test*.py",
-                                                 top_level_dir=0)
+                                                 top_level_dir=None)
     print(discover)
     return discover
 
