@@ -9,7 +9,7 @@ class get_operators(unittest.TestCase):
 
     def setUp(self):
         print u"#################自动执行测试用例开始#############"
-        self.url='http://10.10.100.163:8085/ucenter/member/partner/area/operators'
+        self.url='http://10.10.100.206/ucenter/member/partner/area/operators'
         self.phone3 = AutoMysqlPhoneIsOrNo('18600008881')
         self.passOperator = AutoMysqlPhoneIsOrNo('15652002619')
         self.xiaobai= AutoMysqlPhoneIsOrNo('13700000004')

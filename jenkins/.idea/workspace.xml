@@ -11,47 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_partner_detail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_detail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_partner_invitecode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_invitecode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_partner_inviteEnt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_inviteEnt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_partner_operator_region.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_operator_region.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_partner_operators.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_operators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="402">
+              <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -83,20 +47,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_region_findRegionByParentCode.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_region_findRegionByParentCode.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="321">
+              <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_region_operatoregion.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_region_operatoregion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/Region/test_region_operatoregion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="816">
+              <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_invited_operateByPhoneNumber.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/Invited/test_invited_operateByPhoneNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="898" column="24" lean-forward="true" selection-start-line="898" selection-start-column="24" selection-end-line="898" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_partner_detail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_detail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_idcard_idCardAuth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/IdCard/test_idcard_idCardAuth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatePhoneNum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base/CreatePhoneNum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="857">
+              <caret line="142" column="8" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -107,26 +105,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/testcase/Invited/test_invited_getBeInvitedStatus.py" />
-        <option value="$PROJECT_DIR$/testcase/Invited/test_invited_operateByPhoneNumber.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_partner_applyPartner.py" />
-        <option value="$PROJECT_DIR$/testcase/Partner/test_partner_detail.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_partner_invitecode.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_partner_inviteEnt.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_partner_operator_region.py" />
-        <option value="$PROJECT_DIR$/testcase/Partner/test_partner_operators.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_partner_region.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_partner_tobePaidDetail.py" />
         <option value="$PROJECT_DIR$/testcase/Partner/test_pay_WxZhb.py" />
-        <option value="$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py" />
+        <option value="$PROJECT_DIR$/testcase/Invited/test_invited_operateByPhoneNumber.py" />
+        <option value="$PROJECT_DIR$/testcase/Partner/test_partner_detail.py" />
+        <option value="$PROJECT_DIR$/testcase/Partner/test_partner_operators.py" />
         <option value="$PROJECT_DIR$/testcase/Region/test_region_operatoregion.py" />
+        <option value="$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="57" />
+    <option name="x" value="-138" />
+    <option name="y" value="6" />
     <option name="width" value="1840" />
-    <option name="height" value="855" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,21 +189,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_invited_operateByPhoneNumber.member_getInvitedCodeInfo.test_01_allTrue">
-    <configuration name="Unittests for test_invited_detBeInvitedInfo.member_getBeInvitedStatus.test_01_allTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_region_findRegionByParentCode.py">
+    <configuration name="Unittests for test_partner_detail.idcard_idCardAuth.test_01_allTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="jenkins" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Invited" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Partner" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_invited_detBeInvitedInfo.member_getBeInvitedStatus.test_01_allTrue&quot;" />
+      <option name="_new_target" value="&quot;test_partner_detail.idcard_idCardAuth.test_01_allTrue&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for test_invited_operateByPhoneNumber.member_getInvitedCodeInfo.test_01_allTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_partner_operators.get_operators.test_01_allTrue" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="jenkins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Partner" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_partner_operators.get_operators.test_01_allTrue&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_invited_operateByPhoneNumber.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="jenkins" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,17 +226,49 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_invited_operateByPhoneNumber.member_getInvitedCodeInfo.test_01_allTrue&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/Invited/test_invited_operateByPhoneNumber.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_region_findRegionByParentCode.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="jenkins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Region" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_region_operatoregion.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="jenkins" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/Region" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/Region/test_region_operatoregion.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for test_invited_detBeInvitedInfo.member_getBeInvitedStatus.test_01_allTrue" />
-      <item itemvalue="Python tests.Unittests for test_invited_operateByPhoneNumber.member_getInvitedCodeInfo.test_01_allTrue" />
+      <item itemvalue="Python tests.Unittests in test_invited_operateByPhoneNumber.py" />
+      <item itemvalue="Python tests.Unittests for test_partner_detail.idcard_idCardAuth.test_01_allTrue" />
+      <item itemvalue="Python tests.Unittests for test_partner_operators.get_operators.test_01_allTrue" />
+      <item itemvalue="Python tests.Unittests in test_region_operatoregion.py" />
+      <item itemvalue="Python tests.Unittests in test_region_findRegionByParentCode.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_invited_operateByPhoneNumber.member_getInvitedCodeInfo.test_01_allTrue" />
-        <item itemvalue="Python tests.Unittests for test_invited_detBeInvitedInfo.member_getBeInvitedStatus.test_01_allTrue" />
+        <item itemvalue="Python tests.Unittests in test_region_findRegionByParentCode.py" />
+        <item itemvalue="Python tests.Unittests in test_region_operatoregion.py" />
+        <item itemvalue="Python tests.Unittests for test_partner_operators.get_operators.test_01_allTrue" />
+        <item itemvalue="Python tests.Unittests for test_partner_detail.idcard_idCardAuth.test_01_allTrue" />
+        <item itemvalue="Python tests.Unittests in test_invited_operateByPhoneNumber.py" />
       </list>
     </recent_temporary>
   </component>
@@ -242,20 +285,52 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_partner_detail_idcard_idCardAuth_test_01_allTrue - 2018.04.20 at 10h 17m 16s.xml">
+      <configuration name="Unittests for test_partner_detail.idcard_idCardAuth.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_partner_detail_idcard_idCardAuth_test_01_allTrue - 2018.04.20 at 10h 17m 30s.xml">
+      <configuration name="Unittests for test_partner_detail.idcard_idCardAuth.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_partner_operators_get_operators_test_01_allTrue - 2018.04.20 at 10h 21m 03s.xml">
+      <configuration name="Unittests for test_partner_operators.get_operators.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_partner_operators_get_operators_test_01_allTrue - 2018.04.20 at 10h 21m 19s.xml">
+      <configuration name="Unittests for test_partner_operators.get_operators.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_partner_operators_get_operators_test_01_allTrue - 2018.04.20 at 10h 24m 48s.xml">
+      <configuration name="Unittests for test_partner_operators.get_operators.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_partner_operators_get_operators_test_01_allTrue - 2018.04.20 at 10h 24m 59s.xml">
+      <configuration name="Unittests for test_partner_operators.get_operators.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_partner_operators_get_operators_test_01_allTrue - 2018.04.20 at 10h 25m 32s.xml">
+      <configuration name="Unittests for test_partner_operators.get_operators.test_01_allTrue" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_region_operatoregion_py - 2018.04.20 at 10h 26m 58s.xml">
+      <configuration name="Unittests in test_region_operatoregion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_region_operatoregion_py - 2018.04.20 at 10h 27m 09s.xml">
+      <configuration name="Unittests in test_region_operatoregion.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_region_findRegionByParentCode_py - 2018.04.20 at 10h 27m 28s.xml">
+      <configuration name="Unittests in test_region_findRegionByParentCode.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="57" width="1840" height="855" extended-state="0" />
+    <frame x="562" y="56" width="1840" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32169577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990025" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,8 +351,13 @@
           <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/Partner/test_partner_detail.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -295,24 +375,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Invited/test_invited_operateByPhoneNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_applyPartner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -331,13 +397,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_operator_region.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_operators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -365,17 +424,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py">
+    <entry file="file://$PROJECT_DIR$/testcase/Invited/test_invited_operateByPhoneNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="262">
+          <caret line="898" column="24" lean-forward="true" selection-start-line="898" selection-start-column="24" selection-end-line="898" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/CreatePhoneNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="142" column="8" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/IdCard/test_idcard_idCardAuth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_detail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Partner/test_partner_operators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/Region/test_region_operatoregion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="816">
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="52" column="47" lean-forward="true" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
         </state>
       </provider>
     </entry>

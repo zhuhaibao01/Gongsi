@@ -760,7 +760,7 @@ class member_getInvitedCodeInfo(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'], 2000)
         self.assertEqual(r.json()['success'], False)
-        self.assertEqual(r.json()['message'], u"手机号长度11位")
+        self.assertIn(r.json()['message'], u"手机号长度11位手机格式错误")
         self.assertIsNone(r.json()['entity'])
 
     def test_44_allTrue(self):
@@ -779,7 +779,7 @@ class member_getInvitedCodeInfo(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'], 2000)
         self.assertEqual(r.json()['success'], False)
-        self.assertEqual(r.json()['message'], u"手机格式错误")
+        self.assertIn(r.json()['message'], u"手机格式错误手机号长度11位")
         self.assertIsNone(r.json()['entity'])
 
     def test_45_allTrue(self):
@@ -893,7 +893,7 @@ class member_getInvitedCodeInfo(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'], 2000)
         self.assertEqual(r.json()['success'], False)
-        self.assertEqual(r.json()['message'], u"邀请码格式错误")
+        self.assertEqual(r.json()['message'], u"邀请码不能为空")
         self.assertIsNone(r.json()['entity'])
 
 if __name__=='__main__':

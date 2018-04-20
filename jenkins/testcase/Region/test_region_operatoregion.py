@@ -44,7 +44,7 @@ class partner_region(unittest.TestCase):
         self.assertEqual(r.json()['message'], u"请求成功")
         self.assertIsNotNone(r.json()['entity'])
 
-    def test_03_parentCodeNull(self):
+    def test_04_parentCodeNull(self):
         '''parentCoded为四级'''
         content = {'parentCode':110101}
         r = requests.get(url=self.url, params=content)

@@ -14,6 +14,7 @@ class idcard_idCardAuth(unittest.TestCase):
     def tearDown(self):
         print u"#################自动执行测试结束##############"
 
+    @unittest.skipUnless(True,u'userId可能被改')
     def test_01_allTrue(self):
         '''userId为未进行认证的新媒人'''
         usr = get_IdOrToken(e[random.randint(1,len(e)-1)])
@@ -21,6 +22,7 @@ class idcard_idCardAuth(unittest.TestCase):
         usrheader = usr[2]
         content = {'userId':usrId}
         r = requests.get(url=self.url, params=content, headers=usrheader)
+        print r.content
         print r.json()
         self.assertEqual(r.status_code, 200)
         self.assertEqual(r.json()['code'], 10001)
