@@ -26,7 +26,7 @@ if __name__=="__main__":
     report_abspath=os.path.join(report_path,"result_"+now+".html")
 
     # 打开一个文件，将result写入此file中
-    fp=open(report_abspath,"wb")
+    fp=open(report_abspath,"ab+")
     runner=HTMLTestRunner.HTMLTestRunner(stream=fp,
                                          title=u'接口Zion规划测试报告，结果如下：',
                                          description=u'用例执行情况：')
