@@ -42,7 +42,7 @@
         </entry>
       </file>
       <file leaf-file-name="run_alltest.py" pinned="false" current-in-tab="true">
-        <entry file="file://E:/jenkins/workspace/Testjenkins/jenkins/run_alltest.py">
+        <entry file="file://$PROJECT_DIR$/run_alltest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
@@ -130,7 +130,7 @@
         <option value="$PROJECT_DIR$/testcase/Region/test_region_operatoregion.py" />
         <option value="$PROJECT_DIR$/testcase/Region/test_region_findRegionByParentCode.py" />
         <option value="$PROJECT_DIR$/run_alltest.py" />
-        <option value="E:/jenkins/workspace/Testjenkins/jenkins/run_alltest.py" />
+        <option value="$PROJECT_DIR$/run_alltest.py" />
       </list>
     </option>
   </component>
@@ -184,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="E:/jenkins/workspace/Testjenkins/jenkins" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:/jenkins/workspace/Testjenkins/jenkins/run_alltest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_alltest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -636,7 +636,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/jenkins/workspace/Testjenkins/jenkins/run_alltest.py">
+    <entry file="file://$PROJECT_DIR$/run_alltest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
