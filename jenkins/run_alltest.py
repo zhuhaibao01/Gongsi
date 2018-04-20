@@ -16,7 +16,7 @@ case_pase=os.path.join(os.getcwd(),"testcase")  #加入路径
 report_path=os.path.join(os.getcwd(),"report")
 # print case_pase
 def all_case():
-    discover=unittest.defaultTestLoader.discover(case_pase,
+    discover=unittest.defaultTestLoader.discover('testcase',
                                                  pattern="test*.py",
                                                  top_level_dir=None)
     return discover
@@ -27,7 +27,7 @@ if __name__=="__main__":
     # now=time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
 
     # html报告存放路径
-    # report_abspath=os.path.join(report_path,"result_" + ".html")
+    # report_abspath=os.path.join(report_path,"result_"+now+".html")
 
     # 打开一个文件，将result写入此file中
     fp=open('report.html',"ab+")
