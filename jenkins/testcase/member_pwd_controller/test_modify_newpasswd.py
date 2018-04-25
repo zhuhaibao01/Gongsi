@@ -213,7 +213,7 @@ class member_modify_newpwd(unittest.TestCase):
         conn = MySQLdb.connect(host='10.10.100.206', port=3306, user='root', passwd='admin', db='smedia_center',
                                charset='utf8')
         cur = conn.cursor()
-        cur.execute('select text from s_sms_log order by appdate desc limit 1')
+        cur.execute('select text from s_sms_log where tel=%s order by appdate desc limit 1'%mobile['mobile'])
         data = cur.fetchall()
         vitycode = data[0][0][3:9]
         print vitycode

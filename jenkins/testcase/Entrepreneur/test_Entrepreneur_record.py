@@ -16,8 +16,8 @@ class record(unittest.TestCase):
         邀请码   6-11位数字
         公司名称 4-40位汉字
         """
-        self.url = 'http://10.10.100.163:8085/ucenter/ent/record'
-        # self.url = 'http://10.10.100.206/ucenter/ent/record'
+        # self.url = 'http://10.10.100.163:8085/ucenter/ent/record'
+        self.url = 'http://10.10.100.206/ucenter/ent/record'
         self.phone1 = AutoMysqlPhoneIsOrNo('13700000001')
         self.phone2 = AutoMysqlPhoneIsOrNo('13700000002')
         self.phone3 = AutoMysqlPhoneIsOrNo('13700000003')

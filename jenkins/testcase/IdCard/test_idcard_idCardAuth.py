@@ -485,7 +485,7 @@ class idcard_idCardAuth(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'], 2000)
         self.assertEqual(r.json()['success'], False)
-        self.assertEqual(r.json()['message'], u"请填写要识别的活体图片")
+        self.assertIn(r.json()['message'], u"请填写要识别的活体图片请补全信息")
         self.assertIsNone(r.json()['entity'])
 
     def test_16_idcardUsed(self):

@@ -217,7 +217,7 @@ class SaveBankCard(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'], 2000)
         self.assertEqual(r.json()['success'], False)
-        self.assertEqual(r.json()['message'], u'公司银行账号不能为空')
+        self.assertIn(r.json()['message'], u'公司银行账号不能为空对公账户数据类型错误')
         self.assertIsNone(r.json()['entity'])
 
     def test_11_allTrue(self):

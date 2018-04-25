@@ -28,7 +28,7 @@ class member_registerdUser(unittest.TestCase):
        # 连接到数据库
         conn = MySQLdb.connect(host='10.10.100.206', port=3306, user='root', passwd='admin', db='smedia_center',charset='utf8')
         cur = conn.cursor()
-        cur.execute('select text from s_sms_log order by appdate desc limit 1')
+        cur.execute('select text from s_sms_log where tel=%s order by appdate desc limit 1'%mobile['mobile'])
         data = cur.fetchall()
         vitycode = data[0][0][3:9]
         # print vitycode
@@ -36,7 +36,7 @@ class member_registerdUser(unittest.TestCase):
         content={'userName':mobile['mobile'],'code':vitycode}
         # print content['userName']
         r = requests.get(url=self.url2,params=content)
-        # print r.json()
+        print r.content
         token = r.json()['entity']
         print r.json()['entity']
         headers = {'Content-Type': 'application/json'}
@@ -245,7 +245,7 @@ class member_registerdUser(unittest.TestCase):
         conn = MySQLdb.connect(host='10.10.100.206', port=3306, user='root', passwd='admin', db='smedia_center',
                                charset='utf8')
         cur = conn.cursor()
-        cur.execute('select text from s_sms_log order by appdate desc limit 1')
+        cur.execute('select text from s_sms_log where tel=%s order by appdate desc limit 1'%mobile['mobile'])
         data = cur.fetchall()
         vitycode = data[0][0][3:9]
         # print vitycode
