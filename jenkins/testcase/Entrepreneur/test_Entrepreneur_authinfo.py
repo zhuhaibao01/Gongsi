@@ -1,9 +1,10 @@
 #coding=utf-8
-import unittest, sys, os, requests, json
-sys.path.append('..')
-sys.path.append(os.path.abspath(os.listdir('..')[0] + '/' +'../../'))
-import MySQLdb
-from Base.test_CreatePhoneNum import *
+import sys,unittest,requests,random,time
+reload(sys)
+sys.setdefaultencoding('utf-8')
+sys.path.append(r'C:\Users\test\Desktop\jenkins\Base')
+from CreatePhoneNum import *
+from CreateChinese import *
 class License(unittest.TestCase):
 
 
@@ -19,8 +20,8 @@ class License(unittest.TestCase):
 
     def test_01_allTrue(self):
         '''未认证企业主认证信息获取'''
-        # usr = get_IdOrToken(self.phone4)
-        usr = get_IdOrToken('13700000005')
+        usr = get_IdOrToken(self.phone4)
+        # usr = get_IdOrToken('13700000005')
         usrId = usr[0]
         usrheader = usr[2]
         content = {'userId': usrId}

@@ -133,7 +133,7 @@ class member_controller_checkVerificationCode(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'],2000)
         self.assertEqual(r.json()['success'],False)
-        self.assertEqual(r.json()['message'],u"手机号长度11位")
+        self.assertIn(r.json()['message'],u"手机号长度11位手机格式错误")
         self.assertIsNone(r.json()['entity'])
 
     def test_10_phoneparam(self):
@@ -154,7 +154,7 @@ class member_controller_checkVerificationCode(unittest.TestCase):
         content={'userName':'!156!!~@#$#','code':123456}
         r = requests.get(url=self.url,params=content)
         print r.json()
-        self.assertEqual(r.status_code, 200)
+        self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'],2000)
         self.assertEqual(r.json()['success'],False)
         self.assertEqual(r.json()['message'],u"手机格式错误")
@@ -169,7 +169,7 @@ class member_controller_checkVerificationCode(unittest.TestCase):
         self.assertEqual(r.status_code, 403)
         self.assertEqual(r.json()['code'],2000)
         self.assertEqual(r.json()['success'],False)
-        self.assertEqual(r.json()['message'],u"手机格式错误")
+        self.assertIn(r.json()['message'],u"手机格式错误用户名手机号不能为空")
         self.assertIsNone(r.json()['entity'])
 
 if __name__ == '__main__':

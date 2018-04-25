@@ -179,7 +179,7 @@ class member_modify_newpwd(unittest.TestCase):
         headers = {'Content-Type': 'application/json'}
         token = '1234567890123456789012345678901234567890123'
         content = 'userName=28600000016&userPwd=123456&token=' + token
-        r = requests.post(self.url2 + "?" + content, headers=headers)
+        r = requests.post(self.url3 + "?" + content, headers=headers)
         print r.content
         print r.json()
         self.assertEqual(r.status_code, 403)

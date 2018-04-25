@@ -1,9 +1,10 @@
 #coding=utf-8
-import unittest, sys, os, requests, json
-sys.path.append('..')
-sys.path.append(os.path.abspath(os.listdir('..')[0] + '/' +'../../'))
-from Base.test_CreatePhoneNum import *
-from Base.test_CreateChinese import *
+import sys,unittest,requests,random,time
+reload(sys)
+sys.setdefaultencoding('utf-8')
+sys.path.append(r'C:\Users\test\Desktop\jenkins\Base')
+from CreatePhoneNum import *
+from CreateChinese import *
 class record(unittest.TestCase):
 
 
@@ -414,7 +415,7 @@ class record(unittest.TestCase):
         print r.json()
         self.assertEqual(r.status_code,403)
         self.assertEqual(r.json()['success'], False)
-        self.assertEqual(r.json()['message'], u'法人信息只能输入中英文')
+        self.assertIn(r.json()['message'], u'法人信息只能输入中英文法人信息不能为空')
         self.assertIsNone(r.json()['entity'])
 
     def test_16_allTrue(self):

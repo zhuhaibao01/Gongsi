@@ -20,8 +20,8 @@ class member_registerdUser(unittest.TestCase):
 
     def test_01_all_true(self):
         ''' 输入正确的手机号11位，密码6位，token'''
-        # mobile = {'mobile': self.noregistum}
-        mobile = {'mobile':18600000001}
+        mobile = {'mobile': self.noregistum}
+        # mobile = {'mobile':18600000001}
         print mobile['mobile']
         r = requests.post(url=self.url1, data=mobile)
         print r.json()
@@ -42,6 +42,7 @@ class member_registerdUser(unittest.TestCase):
         headers = {'Content-Type': 'application/json'}
         content = 'userName=%s&userPwd=123456&token=%s'%(mobile['mobile'],token)
         r = requests.post(self.url+ "?" + content, headers=headers)
+        print r.content
         print r.json()
         self.assertEqual(r.status_code, 200)
         self.assertEqual(r.json()['code'],200)

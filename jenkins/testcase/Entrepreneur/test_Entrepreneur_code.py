@@ -1,9 +1,10 @@
 #coding=utf-8
-import unittest, sys, os, requests, json
-sys.path.append('..')
-sys.path.append(os.path.abspath(os.listdir('..')[0] + '/' +'../../'))
-import MySQLdb
-from Base.test_CreatePhoneNum import *
+import sys,unittest,requests,random,time
+reload(sys)
+sys.setdefaultencoding('utf-8')
+sys.path.append(r'C:\Users\test\Desktop\jenkins\Base')
+from CreatePhoneNum import *
+from CreateChinese import *
 class Code(unittest.TestCase):
 
 
